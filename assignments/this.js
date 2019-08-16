@@ -26,9 +26,9 @@ console.log(wins1());
 // code example for Implicit Binding
 
 const sayHello = {
-  greeting: 'Hello',
+  greeting: 'Hello, welcome to Lambda:',
   speak: function(name) {
-    console.log(`${this.greeting}, my name is ${name}`);
+    console.log(`${this.greeting} my name is ${name}`);
     //console.log(this);
   }
 };
@@ -51,8 +51,9 @@ function Person(location) {
 const pakistan = new Person('Pakistan');
 const usa = new Person('United States');
 
-console.log(pakistan.talk());
 console.log(usa.talk());
+console.log(pakistan.talk());
+
 
 
 // Principle 4
